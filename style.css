@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+nav {
+    background-color: #333;
+    position: relative;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    transform: scale(1.1);
+}
+
+main {
+    padding: 2em;
+    background-color: #fff;
+}
+
+article {
+    position: relative;
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 2em;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+article::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+    z-index: -1;
+}
+
+article .content, article .content-2, article .content-3 {
+    position: relative;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+article .content:hover, article .content-2:hover, article .content-3:hover {
+    transform: scale(1.02);
+}
+
+article h2 {
+    color: #fff;
+}
+
+article p {
+    line-height: 1.6;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid white;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: black;
+    transition: 0.1s ease;
+}
+button:active {
+    background-color: #ffffff;
+    color: black;
+    transform: scale(0.8);
+}
+#writer-profile {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#writer-profile .profile {
+    display: flex;
+    align-items: center;
+}
+
+#writer-profile .profile .img1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 2em;
+    border: 3px solid black;
+}
+
+#writer-profile .profile-info {
+    max-width: 600px;
+}
+
+#writer-profile .profile-info h2 {
+    color: #000;
+}
+
+#writer-profile .profile-info p {
+    color: #333;
+}
+#writer-profile .profile-info a {
+    color: #333;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 10px;
+    
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.article-1 {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(186, 28, 28, 0.5)), url('assets/arikel.jpg') no-repeat center 70%;
+    background-size: cover;
+}
+
+.article-2 {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(68, 255, 143, 0.5)), url('assets/image.png') no-repeat center 20%;
+    background-size: cover;
+}
+
+.article-3 {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(52, 218, 255, 0.5)), url('assets/book-stack-transparent-background-25.png') no-repeat center 50%;
+    background-size: cover;
+}
