@@ -161,16 +161,16 @@ footer {
 }
 
 .article-1 {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(186, 28, 28, 0.5)), url('assets/arikel.jpg') no-repeat center 70%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(52, 218, 255, 0.5)), url('assets/cpu.jpg') no-repeat center 10%;
     background-size: cover;
 }
 
 .article-2 {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(68, 255, 143, 0.5)), url('assets/image.png') no-repeat center 20%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(68, 255, 143, 0.5)), url('assets/perangkat\ eksternal.jpg') no-repeat center 70%;
     background-size: cover;
 }
 
 .article-3 {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(52, 218, 255, 0.5)), url('assets/book-stack-transparent-background-25.png') no-repeat center 50%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(186, 28, 28, 0.5)), url('assets/book-stack-transparent-background-25.png') no-repeat center 50%;
     background-size: cover;
 }
